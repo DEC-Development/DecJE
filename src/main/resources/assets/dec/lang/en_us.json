@@ -1,3 +1,6 @@
 {
-  "item.dec.rice": "Rice"
+  "item.dec.rice": "Rice",
+  "item.dec.ice_ingot": "Ice Ingot",
+  "item.dec.everlasting_winter_ingot": "Everlasting Winter Ingot",
+  "item.dec.lava_ingot": "Lava Ingot"
 }
