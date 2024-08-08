@@ -12,6 +12,7 @@ public class ItemBase {
     public RegistryKey<ItemGroup> registryKeyitemgroup;
     public ItemBase(){}
     public void register(){
+        System.out.println(item);
         Registry.register(Registries.ITEM,id,this.item);    //Problem
         /*ItemGroupEvents.modifyEntriesEvent(this.registryKeyitemgroup).register(content->{
             content.add(this.item);

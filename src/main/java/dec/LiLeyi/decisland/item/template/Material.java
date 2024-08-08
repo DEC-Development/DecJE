@@ -7,7 +7,7 @@ import net.minecraft.item.ItemGroups;
 public class Material extends ItemTemplateBase {
     public Material(){
         super();
-        this.item = new Item(new Item.Settings());
+//        this.item = new Item(new Item.Settings());
 
         this.idsAndGroup.put("dec:ice_ingot", ItemGroups.INGREDIENTS);
         this.idsAndGroup.put("dec:everlasting_winter_ingot", ItemGroups.INGREDIENTS);
