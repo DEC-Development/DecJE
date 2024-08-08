@@ -8,7 +8,7 @@ import java.util.TreeMap;
 
 public class ItemTemplateBase{
     public TreeMap<String,RegistryKey<ItemGroup>> idsAndGroup;
-    public Item item;
+//    public Item item;
     public ItemTemplateBase(){
         this.idsAndGroup = new TreeMap<>();
     }
@@ -16,7 +16,7 @@ public class ItemTemplateBase{
         this.idsAndGroup.forEach((id,group)->{
             ItemBase newItem = new ItemBase();
             newItem.id = id;
-            newItem.item = this.item;
+            newItem.item = new Item(new Item.Settings());
             newItem.registryKeyitemgroup = group;
             newItem.register();
         });
